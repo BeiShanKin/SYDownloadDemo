@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+@class UIProgressView;
+@class UIButton;
 
 @interface Commic : NSObject
 @property (strong,nonatomic) NSString *urlStr;
@@ -17,6 +19,7 @@
 @property (assign,nonatomic,getter=isDownload) BOOL download;
 @property (assign,nonatomic) NSInteger taskID;
 @property (weak,nonatomic) UIProgressView *progressView;
+@property (weak,nonatomic) UIButton *button;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dict;
 + (instancetype)commicWithDictionary:(NSDictionary *)dict;

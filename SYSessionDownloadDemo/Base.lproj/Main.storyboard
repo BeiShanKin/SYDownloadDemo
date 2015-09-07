@@ -16,11 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <progressView opaque="NO" tag="1" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dxe-9D-elg">
-                                <rect key="frame" x="30" y="181" width="244" height="2"/>
-                            </progressView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz5-Ky-zle">
-                                <rect key="frame" x="279" y="167" width="96" height="30"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz5-Ky-zle">
+                                <rect key="frame" x="279" y="232" width="96" height="30"/>
                                 <state key="normal" title="download">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -29,11 +26,8 @@
                                     <action selector="downClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iDY-dF-oIL"/>
                                 </connections>
                             </button>
-                            <progressView opaque="NO" tag="2" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8cy-Am-pmJ">
-                                <rect key="frame" x="30" y="250" width="244" height="2"/>
-                            </progressView>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6k-Sy-95N">
-                                <rect key="frame" x="279" y="236" width="96" height="30"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6k-Sy-95N">
+                                <rect key="frame" x="279" y="292" width="96" height="30"/>
                                 <state key="normal" title="download">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -42,15 +36,40 @@
                                     <action selector="downClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Btg-H6-oFw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9el-l5-TKH">
+                                <rect key="frame" x="279" y="178" width="96" height="30"/>
+                                <state key="normal" title="download">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="pause"/>
+                                <connections>
+                                    <action selector="downClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pMK-vv-DLK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3w-mw-Eic">
+                                <rect key="frame" x="279" y="122" width="96" height="30"/>
+                                <state key="normal" title="download">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="pause"/>
+                                <connections>
+                                    <action selector="downClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="F1o-BE-HL9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdx-mW-z0Z">
+                                <rect key="frame" x="279" y="344" width="96" height="30"/>
+                                <state key="normal" title="download">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="pause"/>
+                                <connections>
+                                    <action selector="downClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QOn-Mi-Uk9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="downBtn" destination="tz5-Ky-zle" id="gte-Fr-bK3"/>
-                        <outlet property="progressView" destination="Dxe-9D-elg" id="Pa0-dc-TVi"/>
-                        <outlet property="progressView2" destination="8cy-Am-pmJ" id="lp8-SQ-LY9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

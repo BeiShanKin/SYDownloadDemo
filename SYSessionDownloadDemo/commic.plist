@@ -18,5 +18,29 @@
 		<key>commicNub</key>
 		<string>1</string>
 	</dict>
+	<dict>
+		<key>urlStr</key>
+		<string>http://210.72.20.127/comic/Public/comic_upload/548959ee26749.zip</string>
+		<key>commicID</key>
+		<string>37</string>
+		<key>commicNub</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>urlStr</key>
+		<string>http://210.72.20.127/comic/Public/comic_upload/548959ee26749.zip</string>
+		<key>commicID</key>
+		<string>37</string>
+		<key>commicNub</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>urlStr</key>
+		<string>http://210.72.20.127/comic/Public/comic_upload/548959ee26749.zip</string>
+		<key>commicID</key>
+		<string>37</string>
+		<key>commicNub</key>
+		<string>4</string>
+	</dict>
 </array>
 </plist>
