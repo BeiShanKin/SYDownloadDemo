@@ -14,6 +14,8 @@
 		2823346F1B9C2DA1005A6155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2823346E1B9C2DA1005A6155 /* Images.xcassets */; };
 		282334721B9C2DA1005A6155 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282334701B9C2DA1005A6155 /* LaunchScreen.xib */; };
 		2823347E1B9C2DA2005A6155 /* SYSessionDownloadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2823347D1B9C2DA2005A6155 /* SYSessionDownloadDemoTests.m */; };
+		28E1AA7E1B9D626D00E7DC3C /* commic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E1AA7D1B9D626D00E7DC3C /* commic.plist */; };
+		28E1AA811B9D629700E7DC3C /* Commic.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E1AA801B9D629700E7DC3C /* Commic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		282334771B9C2DA1005A6155 /* SYSessionDownloadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYSessionDownloadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2823347C1B9C2DA2005A6155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2823347D1B9C2DA2005A6155 /* SYSessionDownloadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYSessionDownloadDemoTests.m; sourceTree = "<group>"; };
+		28E1AA7D1B9D626D00E7DC3C /* commic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = commic.plist; sourceTree = "<group>"; };
+		28E1AA7F1B9D629700E7DC3C /* Commic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commic.h; sourceTree = "<group>"; };
+		28E1AA801B9D629700E7DC3C /* Commic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Commic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,8 @@
 				2823346E1B9C2DA1005A6155 /* Images.xcassets */,
 				282334701B9C2DA1005A6155 /* LaunchScreen.xib */,
 				282334611B9C2DA1005A6155 /* Supporting Files */,
+				28E1AA7F1B9D629700E7DC3C /* Commic.h */,
+				28E1AA801B9D629700E7DC3C /* Commic.m */,
 			);
 			path = SYSessionDownloadDemo;
 			sourceTree = "<group>";
@@ -98,6 +105,7 @@
 			children = (
 				282334621B9C2DA1005A6155 /* Info.plist */,
 				282334631B9C2DA1005A6155 /* main.m */,
+				28E1AA7D1B9D626D00E7DC3C /* commic.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,6 +209,7 @@
 			files = (
 				2823346D1B9C2DA1005A6155 /* Main.storyboard in Resources */,
 				282334721B9C2DA1005A6155 /* LaunchScreen.xib in Resources */,
+				28E1AA7E1B9D626D00E7DC3C /* commic.plist in Resources */,
 				2823346F1B9C2DA1005A6155 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +231,7 @@
 				2823346A1B9C2DA1005A6155 /* ViewController.m in Sources */,
 				282334671B9C2DA1005A6155 /* AppDelegate.m in Sources */,
 				282334641B9C2DA1005A6155 /* main.m in Sources */,
+				28E1AA811B9D629700E7DC3C /* Commic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +426,7 @@
 				282334831B9C2DA2005A6155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282334841B9C2DA2005A6155 /* Build configuration list for PBXNativeTarget "SYSessionDownloadDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				282334861B9C2DA2005A6155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
